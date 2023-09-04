@@ -34,7 +34,7 @@ function calcDescontos() {
     totalDescontos.value = soma;
 }
 
-// Calcular o TOTAL:
+// Calcular o valor TOTAL (Receita - Descontos):
 
 const valorTotal = document.getElementById('valor_total');
 const buttonCalc = document.getElementById('btn_calcular');
